@@ -1,0 +1,24 @@
+lockfileVersion: 5.4
+
+specifiers:
+  playwright: ^1.37.1
+
+devDependencies:
+  playwright: 1.37.1
+
+packages:
+
+  /playwright-core/1.37.1:
+    resolution: {integrity: sha512-17EuQxlSIYCmEMwzMqusJ2ztDgJePjrbttaefgdsiqeLWidjYz9BxXaTaZWxH1J95SHGk6tjE+dwgWILJoUZfA==}
+    engines: {node: '>=16'}
+    hasBin: true
+    dev: true
+
+  /playwright/1.37.1:
+    resolution: {integrity: sha512-bgUXRrQKhT48zHdxDYQTpf//0xDfDd5hLeEhjuSw8rXEGoT9YeElpfvs/izonTNY21IQZ7d3s22jLxYaAnubbQ==}
+    engines: {node: '>=16'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      playwright-core: 1.37.1
+    dev: true
